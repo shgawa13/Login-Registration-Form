@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Login And Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class= "hero">
+      <div class="form-box">
+        <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="Login()">Log In</button>
+            <button type="button" class="toggle-btn" onclick="Register()">Register</button>  
+        
+       </div> 
+       <div class="social-icons">
+        <img src="fb.png">
+        <img src="twitter.png">
+        <img src="insta.jpg">
+    </div>
+
+    <form id="Login" class="input-group">
+        <input type="text"class="input-field" placeholder="Email"required>
+        <input type="text"class="input-field" placeholder="Enter-Password"required>
+        <input type="checkbox"class="checkbox"><span>Remember me</span>
+        <button type="submit" class= "submit-btn">Log-in</button>
+    </form>
+
+    <form id="Register" class="input-group">
+        <input type="text"class="input-field" placeholder="User name"required>
+        <input type="Email"class="input-field" placeholder="Email-id"required>
+        <input type="text"class="input-field" placeholder="Enter-Password"required>
+        <input type="checkbox"class="checkbox"><span>I agree to the terms and conditions</span>
+        <button type="submit" class= "submit-btn">Register</button>
+    </form>
+
+   </div>
+ </div>
+   
+ <script src="main.js"></script>
+    
+
+</body>
+</html>
