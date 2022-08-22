@@ -3,24 +3,30 @@
     padding: 0;
     font-family: sans-serif;
 }
+
 .hero{
     height: 100%;
     width: 100%;
     background-image:url("20468918.jpg");
-background-position: center;
-background-size: cover;
-position: absolute;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+}
 
-}.form-box{
+.form-box{
     width: 380px;
     height: 480px;
     position:relative;
     margin: 6% auto;
-  background: rgba(255, 255, 255, 0.603);
- padding: 5px;
- overflow: hidden;
- border-radius: 9px;
+    background: rgba(255, 255, 255, 0.603);
+     padding: 5px;
+     overflow: hidden;
+     border-radius: 9px;
 }
+
 .button-box{
     width: 220px;
     margin: 35px auto;
@@ -28,6 +34,7 @@ position: absolute;
     box-shadow: 0 0 20px 9px #ba24ff00;
     border-radius: 30px;
 }
+
 .toggle-btn{
  padding: 10px 30px;
  cursor: pointer;
@@ -37,6 +44,7 @@ position: absolute;
  position: relative;
  color: aliceblue;
 }
+
 #btn{
      top: 0;
      left: 0;
@@ -47,10 +55,12 @@ position: absolute;
      border-radius: 30px;
      transition: .5s;
 }
+
 .social-icons{
     margin: 30px auto;
     text-align: center;
 }
+
 .social-icons img{
 width: 30px;
 margin: 0 12px;
@@ -58,12 +68,14 @@ box-shadow: 0 0 20px 0 #7f7f7f3d;
  cursor: pointer;
  border-radius: 50%;
 }
+
 .input-group{
 top: 170px;
 position: absolute;
 width: 75%;
 transition: .5s;
 }
+
 .input-field{
 width: 100%;
 padding: 10px 0;
@@ -75,6 +87,7 @@ border-bottom: 1px solid #999;
 outline: none;
 background: transparent;
 }
+
 .submit-btn{
 width: 85%;
 padding: 10px 30px;
